@@ -16,15 +16,22 @@
 <h2 class="text-center text-2xl py-2 pt-5">Please! Search Your Favourte Food</h2>
 <div class="w-50 my-5 mx-auto">
     <div class="input-group mb-3">
-        <input id="search-field" type="text" class="form-control" placeholder="Search Favourte Food" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <input id="search-field" type="text" class="form-control" placeholder="Search Food" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button onclick="searchFood();" id="button-search" class="btn btn-outline-secondary py-2" type="button" id="button-addon2">search</button>
+        <h6 style="display: block;" id="quick"></h6>
+        <p id="alert"></p>
       </div>
 </div>
-
+<!-- single meal details  -->
+<div id="meal-details" class="w-1/3 mx-auto">
+    <div class="container mx-auto">
+       
+    </div>
+</div>
 <!-- card  -->
 <section>
     <div class="container">
-        <div  id="search-result" class="row row-cols-1 row-cols-md-2 g-4">
+        <div  id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
           </div>
     </div>
 </section>
